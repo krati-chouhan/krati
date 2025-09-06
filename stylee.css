@@ -153,22 +153,26 @@ footer {
   }
 }
 .mail:hover{
-  
+  content: Mail;
   transform: scale(1.5);
   font-size:2px;
 }
 .linkedin:hover{
+  content:Linkedin;
   transform: scale(1.5);
   font-size:2px;
 }
 .resume:hover{
+  content: linkedin;
   transform: scale(1.5);
   font-size:2px;
 }
 .Github:hover{
+  content: Github;
   transform: scale(1.5);
   font-size:2px;
 }
 footer:hover {
   height: 100px;
+
 }
