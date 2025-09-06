@@ -157,6 +157,10 @@ footer {
   transform: scale(1.5);
   font-size:2px;
 }
+.mail::after {
+  content: attr(Mail); /* take name from data-name attribute */
+  position: absolute;
+}
 .linkedin:hover{
   content:Linkedin;
   transform: scale(1.5);
@@ -176,3 +180,4 @@ footer:hover {
   height: 100px;
 
 }
+
