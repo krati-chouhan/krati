@@ -161,6 +161,10 @@ footer {
   content: attr(Mail); /* take name from data-name attribute */
   position: absolute;
 }
+.mail:hover::after {
+  opacity: 1; /* show text on hover */
+}
+
 .linkedin:hover{
   content:Linkedin;
   transform: scale(1.5);
@@ -180,4 +184,5 @@ footer:hover {
   height: 100px;
 
 }
+
 
